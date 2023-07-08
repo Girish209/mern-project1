@@ -13,8 +13,8 @@ app.use(express.urlencoded({ extended:true }))
 app.use('/',Routes);
 Connection();
 
-const PORT=5000;
 
-app.listen(PORT,()=>{
-    console.log(`server started at port ${PORT}`);
+
+app.listen(process.env.PORT,()=>{
+    console.log(`server started at port ${process.env.PORT}`);
 })
