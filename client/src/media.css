@@ -2,7 +2,7 @@
     .header1{
         transform: translate(-19px,10px);
     }
-    .header1 h1{
+    .header1>h1{
         font-size: 60px;
     }
     .f1{
