@@ -1,0 +1,19 @@
+@media only screen and (max-width:768px) {
+    .header1{
+        transform: translate(-19px,10px);
+    }
+    .header1 h1{
+        font-size: 60px;
+    }
+    .f1{
+        width: 300px;
+        transform: translate(-10px);
+    }
+    .button{
+        width: 60px;
+
+    }
+    .task{
+        transform: translate(-60px);
+    }
+}
